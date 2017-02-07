@@ -1,0 +1,195 @@
+%Question1
+1.5*10^-8
+
+ans =
+
+   1.5000e-08
+
+exp(-2)*sin(sqrt(5))
+
+ans =
+
+    0.1065
+
+log(6)
+
+ans =
+
+    1.7918
+
+(sin(pi/2))^2
+
+ans =
+
+     1
+
+sin((pi/2)^2)
+
+ans =
+
+    0.6243
+
+abs(3+4i)
+
+ans =
+
+     5
+
+log10(8)
+
+ans =
+
+    0.9031
+
+exp(-abs(sqrt(6)-11/5))
+
+ans =
+
+    0.7792
+
+%Question2
+10^-14
+
+ans =
+
+   1.0000e-14
+
+%b is correct
+%Question3
+%a) is wrong because there is not* sign between 2.5 and pi
+%b) c) d) e) are correct 
+%f) is wrong because it should be . not ,
+%g) is wrong because P is capital
+%h) is wrong because P is capital
+
+%Question4
+%a)
+
+x=input('Give a value of minutes')
+Give a value of minutes8530
+
+x =
+
+        8530
+
+y=x/60
+
+y =
+
+  142.1667
+
+disp('hours are :')
+hours are :
+disp(y)
+  142.1667
+
+disp('minutes are :')
+minutes are :
+disp(x)
+        8530
+
+
+x=input('Give a value of seconds')
+Give a value of seconds23579
+
+x =
+
+       23579
+
+y=x/60
+
+y =
+
+  392.9833
+
+z=y/60
+
+z =
+
+    6.5497
+
+disp('seconds are :')
+seconds are :
+disp(x)
+       23579
+
+disp('minutes are :')
+minutes are :
+disp(y)
+  392.9833
+
+disp('hours are :')
+hours are :
+disp(z)
+    6.5497
+
+%Question5
+log(2*3)
+
+ans =
+
+    1.7918
+
+log(2)+log(3)
+
+ans =
+
+    1.7918
+
+log(2/3)
+
+ans =
+
+   -0.4055
+
+log(2)-log(3)
+
+ans =
+
+   -0.4055
+
+log(2^3)
+
+ans =
+
+    2.0794
+
+3*log(2)
+
+ans =
+
+    2.0794
+
+%Question 6
+exp(3+2i)
+
+ans =
+
+  -8.3585 +18.2637i
+
+exp(3)*exp(2i)
+
+ans =
+
+  -8.3585 +18.2637i
+
+exp(3)*(cos(2)+i*sin(2))
+
+ans =
+
+  -8.3585 +18.2637i
+
+%Question 7
+f=@(x)(sin(x)+cos(x))/sqrt(2)
+
+f = 
+
+    @(x)(sin(x)+cos(x))/sqrt(2)
+
+f(pi/4)
+
+ans =
+
+    1.0000
+
+diary off
